@@ -1,0 +1,25 @@
+@import 'smart-grid.scss';
+
+@include reset();
+
+$color1: red;
+$color2: blue;
+
+body {
+    background-color: rgb(235, 255, 225);
+}
+p {
+    color: $color1;
+    font-size: 21px;
+    text-align: center;
+}
+
+h1 {
+    color: $color2;
+    font-size: 37px;
+    text-align: center;
+}
+
+h2 {
+   color: rgb(31, 117, 117);
+}
